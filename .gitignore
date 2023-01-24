@@ -1,0 +1,25 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# 문서파일
+*.xlsx
+*.xls
+*.pdf
+*.docs
+*.ppt
+*.pptx
+*.txt
+
+
+# 패키지파일
+*.dmg
+*.iso
+*.tar
+*.zip
+*.gz
