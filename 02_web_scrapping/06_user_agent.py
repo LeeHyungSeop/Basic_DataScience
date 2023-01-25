@@ -1,7 +1,13 @@
 import requests
 
-res = requests.get("https://www.naver.com/") # status_code가 200이면 정상
+url = "https://www.naver.com/"
+# User Agent 정보를 복붙한다.
+headers = {"User-Agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
 
-# 예외처리 방법 2
-res.raise_for_status() # 문제가 생기면 바로 프로그램 종료된다
-print("웹 스크래핑을 진행합니다")
+res = requests.get(url, headers=headers) # User Agent 정보를 넘긴다
+
+# 예외처리
+res.raise_for_status() 
+
+with open("naver.html", "w", encoding="utf-8") as f :
+    f.write(res.text)
