@@ -23,3 +23,6 @@
 *.tar
 *.zip
 *.gz
+
+05_NumPy_배열
+06_NumPy_배열연산
