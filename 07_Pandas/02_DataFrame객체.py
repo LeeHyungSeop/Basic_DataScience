@@ -44,7 +44,7 @@ female_tuple = {
     "인천광역시" : 1470404,
     "대구광역시" : 1229139,
     "대전광역시" : 736599,
-    "광주광역시" : 734988
+    "광주광역시" : 734988,
 }
 female = pd.Series(female_tuple)
 print(female)
