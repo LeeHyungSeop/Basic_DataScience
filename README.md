@@ -1,0 +1,1 @@
+* youtube 채널 [`이수안컴퓨터연구소` 영상](https://www.youtube.com/@user-ss5no9xw6e/playlists)을 보며 정리한 내용입니다.
